@@ -137,7 +137,7 @@ class VoiceHandler:
             raise RuntimeError(
                 "Optional dependency 'mistralai' is missing for voice transcription. "
                 "Install voice extras: "
-                'pip install "claude-code-telegram[voice]"'
+                'pip install "lockstep-bot[voice]"'
             ) from exc
 
         api_key = self.config.mistral_api_key_str
@@ -178,7 +178,7 @@ class VoiceHandler:
             raise RuntimeError(
                 "Optional dependency 'openai' is missing for voice transcription. "
                 "Install voice extras: "
-                'pip install "claude-code-telegram[voice]"'
+                'pip install "lockstep-bot[voice]"'
             ) from exc
 
         api_key = self.config.openai_api_key_str

@@ -1,4 +1,4 @@
-# Contributing to Claude Code Telegram Bot
+# Contributing to Lockstep
 
 Thank you for your interest in contributing! This document provides guidelines for contributing to the project.
 
@@ -24,8 +24,8 @@ This project is currently under active development with the following status:
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/your-username/claude-code-telegram.git
-   cd claude-code-telegram
+   git clone https://github.com/gx-ai-architect/lockstep.git
+   cd lockstep
    ```
 
 2. **Install dependencies**:
@@ -420,4 +420,4 @@ Contributors will be recognized in:
 - Project documentation
 - Release notes
 
-Thank you for contributing to Claude Code Telegram Bot! 🚀
+Thank you for contributing to Lockstep! 🚀

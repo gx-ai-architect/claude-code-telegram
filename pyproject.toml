@@ -1,34 +1,33 @@
 [project]
-name = "claude-code-telegram"
-version = "1.5.0"
-description = "Telegram bot for remote Claude Code access with comprehensive configuration management"
+name = "lockstep-bot"
+version = "0.0.1"
+description = "AI-powered personal prioritization coach — fewer goals, deeper focus, real results"
 readme = "README.md"
 license = "MIT"
 authors = [
     {name = "Richard Atkinson", email = "richardatk01@gmail.com"},
 ]
-keywords = ["telegram", "bot", "claude", "ai", "development", "remote", "coding"]
+keywords = ["telegram", "bot", "claude", "ai", "coaching", "productivity", "goals", "prioritization"]
 classifiers = [
     "Development Status :: 3 - Alpha",
-    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Communications :: Chat",
-    "Topic :: Software Development",
-    "Topic :: System :: Shells",
+    "Topic :: Office/Business :: Scheduling",
 ]
 requires-python = ">=3.11"
 dynamic = ["dependencies"]
 
 [project.urls]
-Homepage = "https://github.com/richardatkinson/claude-code-telegram"
-Repository = "https://github.com/richardatkinson/claude-code-telegram"
-Documentation = "https://github.com/richardatkinson/claude-code-telegram/blob/main/docs/"
+Homepage = "https://github.com/gx-ai-architect/lockstep"
+Repository = "https://github.com/gx-ai-architect/lockstep"
+Documentation = "https://github.com/gx-ai-architect/lockstep/blob/main/docs/"
 
 [project.scripts]
-claude-telegram-bot = "src.main:run"
+lockstep-bot = "src.main:run"
 
 [build-system]
 requires = ["poetry-core>=2.0.0"]

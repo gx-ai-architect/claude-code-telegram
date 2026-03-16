@@ -1027,7 +1027,7 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
             f"Provider: <code>{settings.voice_provider_display_name}</code>\n"
             f"Set <code>{settings.voice_provider_api_key_env}</code> to enable.\n"
             "Install optional voice deps with "
-            '<code>pip install "claude-code-telegram[voice]"</code>.',
+            '<code>pip install "lockstep-bot[voice]"</code>.',
             parse_mode="HTML",
         )
         return
