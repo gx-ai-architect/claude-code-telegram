@@ -1,8 +1,8 @@
-"""Custom exceptions for Claude Code Telegram Bot."""
+"""Custom exceptions for Lockstep."""
 
 
 class ClaudeCodeTelegramError(Exception):
-    """Base exception for Claude Code Telegram Bot."""
+    """Base exception for Lockstep."""
 
 
 class ConfigurationError(ClaudeCodeTelegramError):

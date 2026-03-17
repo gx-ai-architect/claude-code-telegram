@@ -1,7 +1,7 @@
 """Application-wide constants."""
 
 # Version info
-APP_NAME = "Claude Code Telegram Bot"
+APP_NAME = "Lockstep"
 APP_DESCRIPTION = "Telegram bot for remote Claude Code access"
 
 # Default limits

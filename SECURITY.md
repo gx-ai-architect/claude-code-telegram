@@ -8,7 +8,7 @@
 
 ## Security Model
 
-The Claude Code Telegram Bot implements a defense-in-depth security model with multiple layers:
+Lockstep implements a defense-in-depth security model with multiple layers:
 
 ### 1. Authentication & Authorization
 - **User Whitelist**: Only pre-approved Telegram user IDs can access the bot

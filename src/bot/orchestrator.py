@@ -1456,7 +1456,7 @@ class MessageOrchestrator:
             "Voice processing is not available. "
             f"Set {self.settings.voice_provider_api_key_env} "
             f"for {self.settings.voice_provider_display_name} and install "
-            'voice extras with: pip install "claude-code-telegram[voice]"'
+            'voice extras with: pip install "lockstep-bot[voice]"'
         )
 
     async def agentic_repo(

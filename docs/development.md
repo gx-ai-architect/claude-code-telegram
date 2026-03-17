@@ -1,6 +1,6 @@
 # Development Guide
 
-This document provides detailed information for developers working on the Claude Code Telegram Bot.
+This document provides detailed information for developers working on the Lockstep.
 
 ## Getting Started
 
@@ -17,8 +17,8 @@ This document provides detailed information for developers working on the Claude
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/RichardAtCT/claude-code-telegram.git
-   cd claude-code-telegram
+   git clone https://github.com/gx-ai-architect/lockstep.git
+   cd lockstep
    ```
 
 2. **Install Poetry** (if not already installed):

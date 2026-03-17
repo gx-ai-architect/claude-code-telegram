@@ -1,4 +1,4 @@
-# Claude Code Telegram Bot -- Project Overview
+# Lockstep -- Project Overview
 
 ## Project Description
 

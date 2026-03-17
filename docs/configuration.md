@@ -1,6 +1,6 @@
 # Configuration Guide
 
-This document provides comprehensive information about configuring the Claude Code Telegram Bot.
+This document provides comprehensive information about configuring Lockstep.
 
 ## Overview
 

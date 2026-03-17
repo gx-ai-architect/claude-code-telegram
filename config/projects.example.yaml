@@ -1,7 +1,7 @@
 projects:
-  - slug: claude-code-telegram
-    name: Claude Code Telegram
-    path: claude-code-telegram-main
+  - slug: lockstep
+    name: Lockstep
+    path: lockstep
     enabled: true
 
   - slug: infra

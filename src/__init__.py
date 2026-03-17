@@ -1,8 +1,7 @@
-"""Claude Code Telegram Bot.
+"""Lockstep — AI-powered personal prioritization coach.
 
-A Telegram bot that provides remote access to Claude Code CLI, allowing developers
-to interact with their projects from anywhere through a secure, terminal-like
-interface within Telegram.
+A Telegram bot that acts as your personal prioritization coach, helping you
+focus on fewer goals with deeper commitment and real results.
 """
 
 import tomllib
@@ -18,11 +17,11 @@ try:
         __version__: str = tomllib.load(_f)["project"]["version"]
 except Exception:
     try:
-        __version__ = _pkg_version("claude-code-telegram")
+        __version__ = _pkg_version("lockstep-bot")
     except PackageNotFoundError:
         __version__ = "0.0.0-dev"
 
 __author__ = "Richard Atkinson"
 __email__ = "richardatk01@gmail.com"
 __license__ = "MIT"
-__homepage__ = "https://github.com/richardatkinson/claude-code-telegram"
+__homepage__ = "https://github.com/gx-ai-architect/lockstep"

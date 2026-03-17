@@ -112,7 +112,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
             )
 
     welcome_message = (
-        f"👋 Welcome to Claude Code Telegram Bot, {escape_html(user.first_name)}!\n\n"
+        f"👋 Welcome to Lockstep, {escape_html(user.first_name)}!\n\n"
         f"🤖 I help you access Claude Code remotely through Telegram.\n\n"
         f"<b>Available Commands:</b>\n"
         f"• <code>/help</code> - Show detailed help\n"
@@ -161,7 +161,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /help command."""
     help_text = (
-        "🤖 <b>Claude Code Telegram Bot Help</b>\n\n"
+        "🤖 <b>Lockstep Help</b>\n\n"
         "<b>Navigation Commands:</b>\n"
         "• <code>/ls</code> - List files and directories\n"
         "• <code>/cd &lt;directory&gt;</code> - Change to directory\n"

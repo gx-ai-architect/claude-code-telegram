@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Telegram bot providing remote access to Claude Code. Python 3.10+, built with Poetry, using `python-telegram-bot` for Telegram and `claude-agent-sdk` for Claude Code integration.
+Lockstep — AI-powered personal prioritization coach delivered via Telegram. Python 3.11+, built with Poetry, using `python-telegram-bot` for Telegram and `claude-agent-sdk` for Claude Code integration. The bot proactively coaches users through daily goal prioritization with morning/midday/evening check-ins and weekly reviews.
 
 ## Commands
 
